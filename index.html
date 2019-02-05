@@ -22,6 +22,25 @@
         
         
         <div id="content">
+        
+         <div class="post-container">
+        <div class="post">
+        <div class="post-author">
+        <img src="images/me.jpg" width="80">
+        <span>Me</span>
+        </div>
+        <p class="post-date">05/02/2019</p>
+        <h3 class="post-title">CTO Tom to the rescue!!</h3>
+        <div class="post-content">
+        <p> So turns out I didn't have to wait untill tomorrow to fix my nth-child issue. one of my colleagues from work took a look at the site and found the issue *very quickly i'm sure lol*</p>
+        <p> The issue was that I had tagged every post with a id=content tag and the :nth-child CSS command requires the elements to be siblings and mine were just stand alone posts which is why they were either all coloured or none were. The fix was simple and just required me to remove the id=content tag from all posts and just have it at the top of the content section and closed off at the end of the content section so it wraps arround all posts.<p/> <p>Thanks for the help Tom :) </p>
+            
+            
+        </div>
+        </div>
+        </div>        
+            
+            
         <div class="post-container">
         <div class="post">
         <div class="post-author">
@@ -59,8 +78,7 @@
         </div>
         </div>
         
-        
-        <div id="content">
+    
         <div class="post-container">
         <div class="post">
         <div class="post-author">
@@ -76,7 +94,7 @@
         </div>
         </div>
         </div>
-        </div>
+        
         
         <div class="post-container">
         <div class="post">
@@ -118,6 +136,7 @@
         
         </div>
         </div>
+        
     </body>
 
 
