@@ -141,13 +141,16 @@ p{
     
 }
 
+table {
+    
+   margin: 0 auto;
+}
 
+h2 {
+    text-decoration: underline;
+}
 
-
-
-
-
-
-
-
-
+.notehead {
+    
+    font-weight: 900;
+}
